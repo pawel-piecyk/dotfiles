@@ -3,9 +3,9 @@
 cd /tmp
 mkdir dotfiles-setup
 cd dotfiles-setup
-curl -O -L https://bitbucket.org/pawelpiecyk/dotfiles/get/master.zip
-unzip *.zip
-mv pawel* ~/dotfiles
+curl -O -L https://github.com/pawel-piecyk/dotfiles/archive/master.zip
+unzip master.zip
+mv dotfiles-master ~/dotfiles
 
 ln -s ~/dotfiles/.vim ~/.vim
 
