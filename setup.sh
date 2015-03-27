@@ -13,3 +13,5 @@ echo "source ~/dotfiles/.vimrc" >> ~/.vimrc
 echo "source ~/dotfiles/.bashrc" >> ~/.bashrc
 echo "source ~/dotfiles/.zshrc" >> ~/.zshrc
 echo "source ~/dotfiles/.tmux.conf" >> ~/.tmux.conf
+
+mkdir ~/.marks
