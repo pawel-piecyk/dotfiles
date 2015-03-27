@@ -14,4 +14,7 @@ echo "source ~/dotfiles/.bashrc" >> ~/.bashrc
 echo "source ~/dotfiles/.zshrc" >> ~/.zshrc
 echo "source ~/dotfiles/.tmux.conf" >> ~/.tmux.conf
 
-mkdir ~/.marks
+if [ -f ~/.marks ];
+then
+    mkdir ~/.marks
+fi
