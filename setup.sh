@@ -3,7 +3,7 @@
 cd /tmp
 mkdir dotfiles-setup
 cd dotfiles-setup
-curl -O -L https://github.com/pawel-piecyk/dotfiles/archive/master.tar.gz
+curl -O -L https://github.com/KamilWojciech/dotfiles/archive/master.tar.gz
 tar -zxvf master.tar.gz
 mv dotfiles-master ~/dotfiles
 
