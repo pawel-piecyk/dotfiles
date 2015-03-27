@@ -18,3 +18,5 @@ if [ -f ~/.marks ];
 then
     mkdir ~/.marks
 fi
+
+mv .oh-my-zsh/themes/* ~/.oh-my-zsh/custom/themes/
