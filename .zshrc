@@ -1,6 +1,6 @@
 # default oh my zsh stuff
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell_custom"
 export UPDATE_ZSH_DAYS=14
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
