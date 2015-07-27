@@ -14,6 +14,9 @@ alias ....="cd ../../.."
 
 alias up="vagrant up --no-provision"
 
+# allows to open files in terminal with 'open' on linux the same way like on osx 
+alias open='gvfs-open'
+
 # vim keybinding in zsh
 set -o vi
 bindkey -v
