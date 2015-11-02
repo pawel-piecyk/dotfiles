@@ -3,7 +3,7 @@
 cd /tmp
 mkdir dotfiles-setup
 cd dotfiles-setup
-curl -O -L https://github.com/pawel-piecyk/dotfiles/archive/master.tar.gz
+curl -O -L https://github.com/KamilWojciech/dotfiles/archive/master.tar.gz
 tar -zxvf master.tar.gz
 mv dotfiles-master ~/dotfiles
 
@@ -13,3 +13,8 @@ echo "source ~/dotfiles/.vimrc" >> ~/.vimrc
 echo "source ~/dotfiles/.bashrc" >> ~/.bashrc
 echo "source ~/dotfiles/.zshrc" >> ~/.zshrc
 echo "source ~/dotfiles/.tmux.conf" >> ~/.tmux.conf
+
+if [ -f ~/.marks ];
+then
+    mkdir ~/.marks
+fi

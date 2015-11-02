@@ -39,7 +39,7 @@ nnoremap <Leader><Leader> <c-^>
 let fortran_have_tabs=1
 
 " colors and gui/platform specific settings
-colorscheme Tomorrow-Night
+colorscheme hybrid 
 set background=dark
 set term=screen-256color
 
