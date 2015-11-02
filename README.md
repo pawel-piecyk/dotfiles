@@ -1,3 +1,4 @@
+# Dotfiles
 A few of my dotfiles with little script for quick installing on fresh machines. 
 
 Setup on fresh machine:
