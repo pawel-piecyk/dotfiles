@@ -44,7 +44,7 @@ set background=dark
 set term=screen-256color
 
 if has("gui_running")
-	set guifont=DejaVu\ Sans\ Mono\ 10
+	set guifont=DejaVu\ Sans\ Mono\ 9
 	set guioptions-=L
 	set guioptions-=T
 endif
