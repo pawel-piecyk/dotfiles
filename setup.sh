@@ -8,6 +8,7 @@ tar -zxvf master.tar.gz
 mv dotfiles-master ~/dotfiles
 
 ln -s ~/dotfiles/.vim ~/.vim
+ln -s ~/dotfiles/.gitconfig .gitconfig
 
 echo "source ~/dotfiles/.vimrc" >> ~/.vimrc
 echo "source ~/dotfiles/.bashrc" >> ~/.bashrc

@@ -61,11 +61,16 @@ endif
 set runtimepath^=~/dotfiles/.vim/bundle/nerdtree,~/dotfiles/.vim/bundle/ctrlp.vim,~/dotfiles/.vim/bundle/supertab
 
 " ctrlp plugin config
-let g:ctrlp_working_path_mode = 'r'
-let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:10'
-let g:ctrlp_regexp = 1
+let g:ctrlp_working_path_mode = 'c'
+let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:20,results:10'
+let g:ctrlp_regexp = 0
 nnoremap <C-L> :CtrlPMRUFiles<CR>
 
 " NERDTree plugin config
 nnoremap <Leader>n :NERDTreeToggle<CR>
 nnoremap <Leader>1 :NERDTreeFind<CR> 
+
+" Don't keep my backup and swap files in current working directory
+set backupdir=~/.vim/backup//
+set directory=~/.vim/backup//
+

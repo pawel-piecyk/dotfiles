@@ -1,0 +1,16 @@
+[user]
+	email = ...
+	name = Pawel Piecyk
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore
+	ignorecase = false
+[alias]
+    cp = cherry-pick
+    st = status 
+    cl = clone
+    ci = commit
+    co = checkout
+    br = branch 
+    dc = diff --cached
+
