@@ -13,6 +13,7 @@ set smartcase
 set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class     
 set incsearch
+set hlsearch
 
 " auto line breaking and spellchecking for git commits
 autocmd Filetype gitcommit setlocal spell textwidth=72

@@ -1,10 +1,3 @@
-# default oh my zsh stuff
-ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
-export UPDATE_ZSH_DAYS=14
-plugins=(git)
-source $ZSH/oh-my-zsh.sh
-
 # aliases
 alias l="ls -la"
 alias ll="ls -l"
@@ -15,7 +8,7 @@ alias ....="cd ../../.."
 alias up="vagrant up --no-provision"
 
 # allows to open files in terminal with 'open' on linux the same way like on osx 
-alias open='gvfs-open'
+#alias open='gvfs-open'
 
 # vim keybinding in zsh
 set -o vi
@@ -49,3 +42,9 @@ compctl -K _completemarks unmark
 
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+fpath+=($HOME/dotfiles/pure)
+
+autoload -U promptinit; promptinit
+prompt pure
+setopt share_history
